@@ -7,7 +7,6 @@
   "insertPragma": false,
   "jsxBracketSameLine": false,
   "jsxSingleQuote": false,
-  "parser": "typescript",
   "printWidth": 100,
   "proseWrap": "always",
   "quoteProps": "as-needed",
@@ -17,5 +16,7 @@
   "tabWidth": 2,
   "trailingComma": "all",
   "useTabs": false,
-  "vueIndentScriptAndStyle": false
+  "vueIndentScriptAndStyle": false,
+  "parser": "typescript"
+
 }

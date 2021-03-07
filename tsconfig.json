@@ -15,10 +15,12 @@
     "strict": true,
     "target": "es5",
     "baseUrl": ".",
-    "paths": {},
+    "paths": { 
+      "@src/*": ["./src/*"]
+    },
     "noImplicitAny": true,
-    "strictNullChecks": false
+    "strictNullChecks": true,
   },
-  "include": ["./**/*.ts", "./**/*.tsx", "pages/_app.js"],
+  "include": ["./**/*.ts", "./**/*.tsx", "src/pages/_app.tsx" ],
   "exclude": ["node_modules", "*.json"]
 }
